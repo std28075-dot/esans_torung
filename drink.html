@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-SANS TORUNG Restaurants</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <style> body { background-image: url(img/back.jpg);  background-size: cover;}</style>
+</head>
+
+<body>
+  <div class="navbar">
+    <h1>เครื่องดื่ม</h1>
+    <div class="burger" onclick="burgerMenu()">☰</div>
+  </div>
+
+  <script>
+    function burgerMenu() {
+      document.getElementById('menu').classList.toggle('active');
+    }
+  </script>
+  
+  <div class="slide-menu" id="menu">
+    <div class="close-btn" onclick="burgerMenu()">✕</div>
+    <a href="index.html"><b>เมนู</b></a>
+    <a href="yum.html">&#8195;ยำ</a>
+    <a href="tom.html">&#8195;ต้ม</a>
+    <a href="lrab.html">&#8195;ลาบ</a>
+    <a href="somtum.html">&#8195;ส้มตำ</a>
+    <a href="jimjum.html">&#8195;จิ้มจุ่ม</a>
+    <a href="yumsab.html">&#8195;ยำแซ่บ</a>
+    <a href="toad.html">&#8195;ของทอด</a>
+    <a href="yang - pao.html">&#8195;ย่าง - เผา</a>
+    <a href="hoyy.html">&#8195;ประเภทหอย</a>
+    <a href="waterfall - kyou.html">&#8195;น้ำตก - ก้อย</a>
+    <a href="foodtamsang.html">&#8195;อาหารตามสั่ง</a>
+    <a href="padkatahot.html">&#8195;ผัดกระทะร้อน</a>
+    <a href="gangEsan.html">&#8195;แกงอีสานพื้นบ้าน</a>
+    <a href="drink.html">&#8195;เครื่องดื่ม</a>
+    <a href="order.html"><b>คำสั่งซื้อ</b></a>
+  </div>
+
+  
+
+
+  <div class="drink">
+    <div class="menu-card">
+        <img src="img/เบียร์.jpg" alt="เบียร์">
+        <div class="menu-info">
+            <h3>เบียร์</h3>
+            <div class="price">ราคา: 70 บาท</div>
+        </div>
+    </div>
+
+    <div class="menu-card">
+        <img src="img/น้ำอัดลม.jpg" alt="น้ำอัดลม">
+        <div class="menu-info">
+            <h3>น้ำอัดลม</h3>
+            <div class="price">ราคา: 20 บาท</div>
+        </div>
+    </div>
+
+    <div class="menu-card">
+        <img src="img/น้ำเปล่า.jpg" alt="น้ำเปล่า">
+        <div class="menu-info">
+            <h3>น้ำเปล่า</h3>
+            <div class="price">ราคา: 10 บาท</div>
+        </div>
+    </div>
+
+    <div class="menu-card">
+        <img src="img/เหล้า.jpg" alt="เหล้า">
+        <div class="menu-info">
+            <h3>เหล้า</h3>
+            <div class="price">ราคา: 150 บาท</div>
+        </div>
+    </div>
+</div>
+
+
+  </div>
+
+</body>
+</html>

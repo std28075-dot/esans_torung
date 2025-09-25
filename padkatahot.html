@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-SANS TORUNG Restaurants</title>
+  <link rel="stylesheet" href="style.css" />
+   <style> body { background-image: url(img/back.jpg);  background-size: cover;}</style>
+</head>
+
+<body>
+  <div class="navbar">
+    <h1>ผัดกระทะร้อน</h1>
+    <div class="burger" onclick="burgerMenu()">☰</div>
+  </div>
+
+  
+  <div class="pad">
+
+    <div class="menu-card">
+      <img src="img/กุ้งผัดพริกไทยดำ.jpg" alt="กุ้งผัดพริกไทยดำ">
+      <div class="menu-info">
+        <h3>กุ้งผัดพริกไทยดำ</h3>
+        <div class="price">ราคา: 130 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/รวมทะเลผัดพริกไทยดำ.jpg" alt="รวมทะเลผัดพริกไทยดำ">
+      <div class="menu-info">
+        <h3>รวมทะเลผัดพริกไทยดำ</h3>
+        <div class="price">ราคา: 150 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/ปูม้าผัดต้นหอม.jpg" alt="ปูม้าผัดต้นหอม">
+      <div class="menu-info">
+        <h3>ปูม้าผัดต้นหอม</h3>
+        <div class="price">ราคา: 180 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/ปูม้าผัดพริกเผา.jpg" alt="ปูม้าผัดพริกเผา">
+      <div class="menu-info">
+        <h3>ปูม้าผัดพริกเผา</h3>
+        <div class="price">ราคา: 180 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/ปูนิ่มผัดต้นหอม.jpg" alt="ปูนิ่มผัดต้นหอม">
+      <div class="menu-info">
+        <h3>ปูนิ่มผัดต้นหอม</h3>
+        <div class="price">ราคา: 190 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/ผัดเผ็ดกบ.jpg" alt="ผัดเผ็ดกบ">
+      <div class="menu-info">
+        <h3>ผัดเผ็ดกบ</h3>
+        <div class="price">ราคา: 150 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/ผักบุ้งไฟแดง.jpg" alt="ผักบุ้งไฟแดง">
+      <div class="menu-info">
+        <h3>ผักบุ้งไฟแดง</h3>
+        <div class="price">ราคา: 60 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/ไข่เจียว.jpg" alt="ไข่เจียว">
+      <div class="menu-info">
+        <h3>ไข่เจียว</h3>
+        <div class="price">ราคา: 40 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/ไข่เจียวกุ้งสับ.jpg" alt="ไข่เจียวกุ้งสับ">
+      <div class="menu-info">
+        <h3>ไข่เจียวกุ้งสับ</h3>
+        <div class="price">ราคา: 60 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/กะหล่ำผัดน้ำปลา.jpg" alt="กะหล่ำผัดน้ำปลา">
+      <div class="menu-info">
+        <h3>กะหล่ำผัดน้ำปลา</h3>
+        <div class="price">ราคา: 50 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/รวมทะเลผัดพริกเผา.jpg" alt="รวมทะเลผัดพริกเผา">
+      <div class="menu-info">
+        <h3>รวมทะเลผัดพริกเผา</h3>
+        <div class="price">ราคา: 150 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/รวมทะเลผัดฉ่า.jpg" alt="รวมทะเลผัดฉ่า">
+      <div class="menu-info">
+        <h3>รวมทะเลผัดฉ่า</h3>
+        <div class="price">ราคา: 150 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/ปูม้าผัดฉ่า.jpg" alt="ปูม้าผัดฉ่า">
+      <div class="menu-info">
+        <h3>ปูม้าผัดฉ่า</h3>
+        <div class="price">ราคา: 180 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/ปูม้าผัดผงกะหรี่.jpg" alt="ปูม้าผัดผงกะหรี่">
+      <div class="menu-info">
+        <h3>ปูม้าผัดผงกะหรี่</h3>
+        <div class="price">ราคา: 180 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/ปูนิ่มผัดพริกเผา.jpg" alt="ปูนิ่มผัดพริกเผา">
+      <div class="menu-info">
+        <h3>ปูนิ่มผัดพริกเผา</h3>
+        <div class="price">ราคา: 190 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/ปูนิ่มผัดผงกะหรี่.jpg" alt="ปูนิ่มผัดผงกะหรี่">
+      <div class="menu-info">
+        <h3>ปูนิ่มผัดผงกะหรี่</h3>
+        <div class="price">ราคา: 190 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/กบผัดพริกไทยอ่อน.jpg" alt="กบผัดพริกไทยอ่อน">
+      <div class="menu-info">
+        <h3>กบผัดพริกไทยอ่อน</h3>
+        <div class="price">ราคา: 150 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/ผัดผักรวม.jpg" alt="ผัดผักรวม">
+      <div class="menu-info">
+        <h3>ผัดผักรวม</h3>
+        <div class="price">ราคา: 70 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/ไข่เจียวหมูสับ.jpg" alt="ไข่เจียวหมูสับ">
+      <div class="menu-info">
+        <h3>ไข่เจียวหมูสับ</h3>
+        <div class="price">ราคา: 50 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/ไข่เจียวเนื้อปู.jpg" alt="ไข่เจียวเนื้อปู">
+      <div class="menu-info">
+        <h3>ไข่เจียวเนื้อปู</h3>
+        <div class="price">ราคา: 120 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/คะน้าน้ำมันหอย.jpg" alt="คะน้าน้ำมันหอย">
+      <div class="menu-info">
+        <h3>คะน้าน้ำมันหอย</h3>
+        <div class="price">ราคา: 60 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/กะพงผัดฉ่า.jpg" alt="กะพงผัดฉ่า">
+      <div class="menu-info">
+        <h3>กะพงผัดฉ่า</h3>
+        <div class="price">ราคา: 180 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/เนื้อผัดน้ำมันหอย.jpg" alt="เนื้อผัดน้ำมันหอย">
+      <div class="menu-info">
+        <h3>เนื้อผัดน้ำมันหอย</h3>
+        <div class="price">ราคา: 120 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/คะน้าหมูกรอบ.jpg" alt="คะน้าหมูกรอบ">
+      <div class="menu-info">
+        <h3>คะน้าหมูกรอบ</h3>
+        <div class="price">ราคา: 80 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/ผัดเครื่องแกงทะเล.jpg" alt="ผัดเครื่องแกงทะเล">
+      <div class="menu-info">
+        <h3>ผัดเครื่องแกงทะเล</h3>
+        <div class="price">ราคา: 150 บาท</div>
+      </div>
+    </div>
+    
+    <div class="menu-card">
+      <img src="img/ผัดผักบุ้งหมูกรอบ.jpg" alt="ผัดผักบุ้งหมูกรอบ">
+      <div class="menu-info">
+        <h3>ผัดผักบุ้งหมูกรอบ</h3>
+        <div class="price">ราคา: 90 บาท</div>
+      </div>
+    </div>
+    
+
+  </div>
+
+  <div class="slide-menu" id="menu">
+    <div class="close-btn" onclick="burgerMenu()">✕</div>
+    <a href="index.html"><b>เมนู</b></a>
+    <a href="yum.html">&#8195;ยำ</a>
+    <a href="tom.html">&#8195;ต้ม</a>
+    <a href="lrab.html">&#8195;ลาบ</a>
+    <a href="somtum.html">&#8195;ส้มตำ</a>
+    <a href="jimjum.html">&#8195;จิ้มจุ่ม</a>
+    <a href="yumsab.html">&#8195;ยำแซ่บ</a>
+    <a href="toad.html">&#8195;ของทอด</a>
+    <a href="yang - pao.html">&#8195;ย่าง - เผา</a>
+    <a href="hoyy.html">&#8195;ประเภทหอย</a>
+    <a href="waterfall - kyou.html">&#8195;น้ำตก - ก้อย</a>
+    <a href="foodtamsang.html">&#8195;อาหารตามสั่ง</a>
+    <a href="padkatahot.html">&#8195;ผัดกระทะร้อน</a>
+    <a href="gangEsan.html">&#8195;แกงอีสานพื้นบ้าน</a>
+    <a href="drink.html">&#8195;เครื่องดื่ม</a>
+    <a href="order.html"><b>คำสั่งซื้อ</b></a>
+  </div>
+
+  <script>
+    function burgerMenu() {
+      document.getElementById('menu').classList.toggle('active');
+    }
+  </script>
+</body>
+
+</html>
